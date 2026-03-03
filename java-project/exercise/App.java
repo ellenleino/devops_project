@@ -12,6 +12,13 @@ Function<String, String> {
         for (String name : names) {
             System.out.println(name);
         }
+        var cars = List.of("skoda", "mercedes", "bmw", "volkswagen");
+
+        App app = new App();
+        cars.stream()
+            .filter(app)
+            .map(app)
+            .forEach(app);
     }
 
     public static List<String> getNames() {
