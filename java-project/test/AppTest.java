@@ -42,4 +42,12 @@ public class AppTest {
         assertEquals("WORLD", function.apply("world"));
     }
 
+    @Test
+    public void testGetNames() {
+        List<String> names = App.getNames();
+        assertEquals(3, names.size());
+        assertTrue(names.contains("jack"));
+        assertTrue(names.contains("tina smith"));
+        assertTrue(names.contains("paul bond"));
+    }
 }
