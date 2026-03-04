@@ -25,7 +25,10 @@ public final class App implements Consumer<String>, Predicate<String>,
         var cars = List.of("skoda", "mercedes", "bmw", "volkswagen");
 
         App app = new App();
-        cars.stream().filter(app).map(app).forEach(app);
+        cars.stream()
+                .filter(app)
+                .map(app)
+                .forEach(app);
     }
 
     /**
