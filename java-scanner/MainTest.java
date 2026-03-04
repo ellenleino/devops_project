@@ -128,4 +128,19 @@ public class MainTest {
         assertTrue(output.contains("Result: -8.0"));
     }
 
+    @Test
+    public void testZeroInput() {
+        String simulatedInput = "0\n+\n5\n";
+        ByteArrayInputStream inputStream = new ByteArrayInputStream(simulatedInput.getBytes());
+        System.setIn(inputStream);
+
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outputStream));
+
+        Main.main(new String[]{});
+
+        String output = outputStream.toString();
+        assertTrue(output.contains("Result: 5.0"));
+    }
+
 }
