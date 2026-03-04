@@ -28,4 +28,10 @@ public class AppTest {
         assertEquals("Test\n", outContent.toString());
     }
 
+    @Test
+    public void testPredicateTest() {
+        Predicate<String> predicate = new App();
+        assertTrue(predicate.test("Hello"));
+        assertFalse(predicate.test("Hi"));
+    }
 }
