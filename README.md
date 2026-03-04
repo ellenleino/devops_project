@@ -10,4 +10,4 @@ Java-project has exercises.
 
 Mammal has animal actions.
 
-Html has all the html code.
+Html has html.
