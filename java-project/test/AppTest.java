@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 
 import java.util.Arrays;
 
+// Looking sharp.
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.List;
