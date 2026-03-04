@@ -63,6 +63,7 @@ public final class App implements Consumer<String>, Predicate<String>,
 
     /**
      * Override apply.
+     * Change everything to uppercase letters.
      */
     @Override
     public String apply(final String t) {
