@@ -42,6 +42,9 @@ public final class App implements Consumer<String>, Predicate<String>,
         return names;
     }
 
+    /**
+     * Override accept.
+     */
     @Override
     public void accept(final String t) {
         System.out.print(t + "\n");
