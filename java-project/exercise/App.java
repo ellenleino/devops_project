@@ -11,7 +11,7 @@ import java.util.function.Function;
  */
 public final class App implements Consumer<String>, Predicate<String>,
         Function<String, String> {
-    private static final int DEF_NUM = 5;
+    private static final int MIN_CAR_LENGTH = 5;
 
     /**
      * List cars.
@@ -58,7 +58,7 @@ public final class App implements Consumer<String>, Predicate<String>,
     // return true if you want to keep t in List, otherwise return false
     @Override
     public boolean test(final String t) {
-        return t.length() >= DEF_NUM;
+        return t.length() >= MIN_CAR_LENGTH;
     }
 
     /**
