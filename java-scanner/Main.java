@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Class for math.
+ * Class for math and operations.
  */
 public class Main {
     public static void main(final String[] args) {
