@@ -46,6 +46,7 @@ public class AppTest {
         assertEquals("WORLD", function.apply("world"));
     }
 
+    // Ooh, black and yellow!
     @Test
     public void testGetNames() {
         List<String> names = App.getNames();
