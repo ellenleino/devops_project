@@ -68,4 +68,19 @@ public class MainTest {
         assertTrue(output.contains("Result: 6.0"));
     }
 
+    @Test
+    public void testMultiplicationOperation() {
+        String simulatedInput = "6\n*\n7\n";
+        ByteArrayInputStream inputStream = new ByteArrayInputStream(simulatedInput.getBytes());
+        System.setIn(inputStream);
+
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outputStream));
+
+        Main.main(new String[]{});
+
+        String output = outputStream.toString();
+        assertTrue(output.contains("Result: 42.0"));
+    }
+
 }
