@@ -1,4 +1,5 @@
 # Devops project
 
-Hello world
-Adding text writing stuff
+Main has Hello world.
+
+Java-scanner has math.
