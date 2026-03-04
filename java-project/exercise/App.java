@@ -29,7 +29,7 @@ public final class App implements Consumer<String>, Predicate<String>,
         var names = new LinkedList<String>();
         names.add("jack");
         names.add("tina smith");
-        names.add("paul bond");
+        names.add("james bond");
         return names;
     }
 
