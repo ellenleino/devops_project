@@ -5,17 +5,21 @@ import java.util.LinkedList;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.function.Function;
-import java.util.*;
 
 /**
- * THis is a class to implement functions.
+ * This is a class to implement functions.
  */
 public final class App implements Consumer<String>, Predicate<String>,
         Function<String, String> {
     private static final int DEF_NUM = 5;
 
+    /**
+     * List cars.
+     */
     public final class App {
-        var names = getNames();for(
+        var names = getNames();
+
+        for(
         String name:names)
         {
             System.out.println(name);
