@@ -1,5 +1,7 @@
 # Devops project
 
+This is a project to practice java and github working in teams.
+
 Main has Hello world.
 
 Java-scanner has math.
