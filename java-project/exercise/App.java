@@ -59,6 +59,9 @@ public final class App implements Consumer<String>, Predicate<String>,
         return t.length() >= DEF_NUM;
     }
 
+    /**
+     * Override apply.
+     */
     @Override
     public String apply(final String t) {
         return t.toUpperCase();
