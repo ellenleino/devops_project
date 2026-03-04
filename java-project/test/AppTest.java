@@ -14,5 +14,10 @@ import java.util.function.Predicate;
 import java.util.function.Function;
 
 public class AppTest {
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
+    @Before
+    public void setUp() {
+        System.setOut(new PrintStream(outContent));
+    }
 }
