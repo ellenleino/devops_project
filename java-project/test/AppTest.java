@@ -13,6 +13,7 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.function.Function;
 
+// According to all known laws of aviation, there is no way a bee should be able to fly.
 public class AppTest {
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
