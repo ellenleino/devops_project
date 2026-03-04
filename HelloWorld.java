@@ -1,5 +1,5 @@
 /**
- * Javadoc.
+ * Say hello to the world.
  */
 
 public class Main {
