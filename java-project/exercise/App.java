@@ -16,17 +16,16 @@ public final class App implements Consumer<String>, Predicate<String>,
     /**
      * List cars.
      */
-    public final class App {
+    public static void main(String[] args) {
         var names = getNames();
 
-        for(
-        String name:names)
-        {
+        for (String name : names) {
             System.out.println(name);
         }
         var cars = List.of("skoda", "mercedes", "bmw", "volkswagen");
 
-        App app = new App();cars.stream().filter(app).map(app).forEach(app);
+        App app = new App();
+        cars.stream().filter(app).map(app).forEach(app);
     }
 
     /**
