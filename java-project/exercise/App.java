@@ -50,6 +50,9 @@ public final class App implements Consumer<String>, Predicate<String>,
         System.out.print(t + "\n");
     }
 
+    /**
+     * OVerride boolean test.
+     */
     // return true if you want to keep t in List, otherwise return false
     @Override
     public boolean test(final String t) {
